@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-top-nav',
@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
   templateUrl: './top-nav.component.html',
   styleUrl: './top-nav.component.css'
 })
-export class TopNavComponent {
-
+export class TopNavComponent implements OnInit{
+  constructor(){}
+  ngOnInit(): void {
+    
+  }
 }

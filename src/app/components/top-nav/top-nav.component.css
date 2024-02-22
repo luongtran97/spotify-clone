@@ -1,0 +1,14 @@
+.spotify__top-nav {
+  width: 100%;
+  height: 74px;
+  background: #0f0f0f;
+  position: fixed;
+}
+.spotify__top-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.spotify__top-nav_auth {
+  display: flex;
+}
